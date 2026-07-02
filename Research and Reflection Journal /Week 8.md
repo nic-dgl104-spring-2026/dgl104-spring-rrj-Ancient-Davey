@@ -61,7 +61,7 @@ Overall, this week's material made me realize that software development isn't ju
 
 ## Activities
 ### Research a New Language
-     So, for this quick research assignment I decided to go with Lua as it was generally considered simple and is used for making games which interested me. Lua is a lightweight scripting language mainly used for game development, embedded systems, and adding scripting features to some applications. For an example, apparently games like Roblox and World of Warcraft use Lua for their in-game scripting. For reference you can head to the official Lua website, which provides documentation straight from the creators, along with the free book “Programming in Lua” first edition, which delves into the language more in depth and clearly for the beginners interested in the particular language.
+So, for this quick research assignment I decided to go with Lua as it was generally considered simple and is used for making games which interested me. Lua is a lightweight scripting language mainly used for game development, embedded systems, and adding scripting features to some applications. For an example, apparently games like Roblox and World of Warcraft use Lua for their in-game scripting. For reference you can head to the official Lua website, which provides documentation straight from the creators, along with the free book “Programming in Lua” first edition, which delves into the language more in depth and clearly for the beginners interested in the particular language.
 
 ### Write a User Story
  App: Discord

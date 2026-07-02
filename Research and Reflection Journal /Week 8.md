@@ -69,7 +69,9 @@ Feature: Sending the messages to my friends in a channel
 User Persona:
 Name: John Doe
 User Story: I can communicate with my friends in fun ways like with gifs, messages, video call, and even play games with them while on the call.
+
 More Specific User Stories: 
+
 -	I can send messages to my friends privately and effectively
 -	I can have a video call with all my friends
 -	I can play games while on the call
@@ -77,7 +79,9 @@ More Specific User Stories:
 -	I can chat with my friends while on the go
 -	I have the ability to edit and delete my messages in case I misspell
 -	I can have multiple chat groups for different topics
+
 Acceptance Criteria:
+
 -	Users can send private messages to individual friends.
 -	Messages are delivered instantly and appear in the chat.
 -	Users can start and join video calls with multiple friends.

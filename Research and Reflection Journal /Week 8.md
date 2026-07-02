@@ -57,7 +57,7 @@ Learning about user stories showed me how important it is to think like a user i
 
 I also found the INVEST framework helpful because it gives a simple way to check whether a user story is actually useful and realistic to implement. The section on acceptance criteria stood out to me as well because it clearly defines what "finished" looks like. Having specific criteria makes it easier to test features and confirm that they work as intended.
 
-Overall, this week's material made me realize that software development isn't just about writing code—it's also about understanding users and planning features carefully before development begins. Going forward, I want to spend more time thinking about user needs and creating user stories before I start building features for my coding project. I think this will help me stay focused and make better design decisions throughout development.
+Overall, this week's material made me realize that software development isn't just about writing code, it's also about understanding users and planning features carefully before development begins. Going forward, I want to spend more time thinking about user needs and creating user stories before I start building features for my coding project. I think this will help me stay focused and make better design decisions throughout development.
 
 ## Activities
 ### Research a New Language

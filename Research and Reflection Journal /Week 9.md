@@ -1,3 +1,18 @@
+# Design Patterns
+This week introduced me to design patterns; these are not to be confused with just copy and paste type of material. A design pattern is a common, reusable solution to a commonly occurring problem in software design, it works more like a reusable blueprint. After learning about design patterns, I now understand how much an experienced developer must spend just as much time thinking about how his code will be structured, how different parts of a system communicate, and how it will be maintained.
+I found it interesting that design patterns became widely recognized through the work of the “Gang of Four” authors, who documented 23 common patterns in their book Design Patterns: Elements of Reusable Object-Oriented Software. These patterns  being grouped into three different categories: Creational, Structural, and Behavioral patterns. Having a clear understanding of these categories helped me see that design problems often fall into predictable areas, such as how objects are created, how they connect, or how they interact with each other.
+## Observer Pattern
+The observer pattern, which belongs to the Behavioral category, solves the problem of keeping multiple objects informed when changes occur in another object. Multiple observers can listen to a single subject due to the pattern creating a one-to-many dependency. The stock ticker example simulates this quite well on how a single subject can notify multiple observers, such as chart display, alert system, and history logs. The main advantage of the observer pattern is that its components are loosely coupled meaning that the system will be much easier to extend and to maintain.
+## Singleton pattern
+The singleton pattern ensures that only one instance exists in the instantiation of the class. By providing a single access point, the pattern promotes consistency and prevents unnecessary duplication of resources. However, I also learned that overusing Singletons could create hidden dependencies and make applications harder to test. It also allows classes to control their instantiation and provide easier access to that instance. From what I learned use a Singleton only when a resource genuinely needs to exist with exactly once.
+## Additional patterns
+I looked briefly into several other design patterns. The Factory Method pattern for one separates object creation from object usage, making applications more flexible when different implementations may be needed. The Decorator pattern was easy to relate to because it works similarly to adding toppings to a coffee order, allowing functionality to be added without modifying the original object. The Strategy pattern stood out because it supports interchangeable algorithms, which would be useful in systems that need multiple approaches to solving the same problem. Finally, the Module pattern highlighted JavaScript's emphasis on encapsulation and organizing code into reusable, maintainable units.
+## Personal Reflection
+Overall, this lesson gave me a more insight into software development. Design patterns are not really shortcuts, but rather accumulated knowledge from previous developers who experienced the same challenges before hand. Learning these patterns helps me recognize common structures in the frameworks and libraries I already use.  
+## Bibliography
+> Refactoring Guru. (n.d.). Design Patterns. Retrieved July 5, 2026, from https://refactoring.guru/design-patterns
+> Wikipedia contributors. (2026). Observer pattern. Wikipedia. https://en.wikipedia.org/wiki/Observer_pattern
+> NIC DGL-104 App Development Foundations. (2026). Week 9 – Design Patterns course notes. North Island College.
 
 ## Find Potential Projects To Contribute To
 ### Project 1: Next.js

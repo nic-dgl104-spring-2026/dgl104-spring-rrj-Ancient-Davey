@@ -11,9 +11,11 @@ I looked briefly into several other design patterns. The Factory Method pattern 
 Overall, this lesson gave me a more insight into software development. Design patterns are not really shortcuts, but rather accumulated knowledge from previous developers who experienced the same challenges before hand. Learning these patterns helps me recognize common structures in the frameworks and libraries I already use.  
 ## Bibliography
 > Refactoring Guru. (n.d.). Design Patterns. Retrieved July 5, 2026, from https://refactoring.guru/design-patterns
-> Wikipedia contributors. (2026). Observer pattern. Wikipedia. https://en.wikipedia.org/wiki/Observer_pattern
-> NIC DGL-104 App Development Foundations. (2026). Week 9 – Design Patterns course notes. North Island College.
 
+> Wikipedia contributors. (2026). Observer pattern. Wikipedia. https://en.wikipedia.org/wiki/Observer_pattern
+
+> NIC DGL-104 App Development Foundations. (2026). Week 9 – Design Patterns course notes. North Island College.
+# Activies
 ## Find Potential Projects To Contribute To
 ### Project 1: Next.js
 URL: https://github.com/vercel/next.js

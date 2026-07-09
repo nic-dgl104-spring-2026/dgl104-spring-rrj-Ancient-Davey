@@ -66,14 +66,22 @@ The project encourages contributors to:
 
 ### Current Progress
 
-- Forked repository
-- Cloned repository
-- Created feature branch
-- Began investigating notification-related files
+- Forked the CircuitVerse repository to my personal GitHub account.
+- Cloned my fork to my local development environment.
+- Created a new branch to keep my work separate from the main branch.
+- Reviewed the issue description and contributor documentation.
+- Began investigating the notification system within the codebase.
+- Started identifying files that may be related to notification management and database relationships.
 
-### Next Steps
+### Current Investigation
+My initial understanding of the issue is that notifications may continue to exist after a related project or user has been removed from the database. This could potentially lead to invalid references or errors when notifications are displayed.
+To investigate this further, I plan to:
 
-- Locate notification models and controllers
-- Determine what happens when projects or users are deleted
-- Create and test a fix
-- Commit progress regularly
+- Locate the notification model and related controllers.
+- Examine how notifications are associated with users and projects.
+- Determine what occurs when a user or project is deleted.
+- Identify whether notifications should also be deleted or handled differently.
+- Implement and test a potential solution.
+
+# Follow-Up Question and Reflections
+The hardest thing for me to do was not really figuring out what was wrong, as there was plenty of hints for the issue, but figuring out how to work with github more indepth. Usually when I used github it was for documentation and file upload, so creating new branches and forks were new to me.

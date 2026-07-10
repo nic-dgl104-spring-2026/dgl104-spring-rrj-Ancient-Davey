@@ -49,6 +49,32 @@ MVVM is evolved from MVC to better support the modern user interface, particular
 ### Why Use MVVM?
 MVVM has a clear separation between UI and business logic with an improved testability. It has a reduced code in the View and works well with reactive programming techniques, these being a technique focused on creating relationships between pieces of data so that when one value changes, all related values update automatically without requiring extra code. MVVM has become the preferred architecture for modern mobile applications. I kinda found it a little interesting that both Apple and Google have shifted toward MVVM because declarative user interfaces work naturally with data-binding concepts.
 
+## Model View Presenter (MVP)
+MVP was created to cover some of the shortcomings of MVC by giving the Presenter more responsability. It is comprised of these components:
+#### Model 
+Handles data and business logic.
+#### View
+Displays the UI and forwards the events.
+#### Presenter 
+Processes user interactions and updates both the Model and the View.
+
+## MVP How it Works
+- User interacts with the View.
+- The View notifies the Presenter.
+- The Presenter updates the Model.
+- The Presenter receives data from the Model.
+- The Presenter updates the View.
+
+Unlike MVVM, the View in MVP does not automatically bind to the data. The Presenter explicitly manages updates.
+
+## Why Use MVP
+MVP has a higher testability than the other two, has a clear separation of its responsibilities and it also has a better control over UI interactions. From my perspective, MVP seems like a good balance between MVC and MVVM, although it appears to require more manual work.
+
+## Reflection
+Overall, this week's lesson helped me understand why architecture is so important in software development. When projects are small, it can be tempting to put everything in one place, but as applications grow, that approach quickly becomes difficult to maintain. MV* patterns provide a way to organize code logically and make teamwork easier because developers can focus on specific parts of the application without affecting everything else.
+
+My biggest takeaway from this week is that there is no single "best" architecture. Each pattern has strengths and weaknesses, and the choice depends on the project's needs and the framework being used. As I continue learning app development, understanding these patterns will help me build applications that are cleaner, easier to maintain, and more scalable.
+
 # Assess External Community Contribution Guidelines
 ## Community Information
 ### Project: CircuitVerse

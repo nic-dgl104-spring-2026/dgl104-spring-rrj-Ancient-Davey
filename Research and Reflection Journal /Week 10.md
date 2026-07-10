@@ -75,6 +75,11 @@ Overall, this week's lesson helped me understand why architecture is so importan
 
 My biggest takeaway from this week is that there is no single "best" architecture. Each pattern has strengths and weaknesses, and the choice depends on the project's needs and the framework being used. As I continue learning app development, understanding these patterns will help me build applications that are cleaner, easier to maintain, and more scalable.
 
+## References
+> - https://en.wikipedia.org/wiki/Reactive_programming
+> - https://www.codezion.com/blog/mvp-vs-mvc-vs-mvvm/
+> - https://github.com/DibyaSarkar/NIC-DGL104-textbook/tree/main/ch8/MVC
+
 # Assess External Community Contribution Guidelines
 ## Community Information
 ### Project: CircuitVerse

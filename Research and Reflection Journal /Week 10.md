@@ -33,8 +33,21 @@ Handles user input and acts as a mediator between the Model and View
 - The Model changes its state.
 - The View refreshes and displays updated data.
 
-### Why Use MVC
+### Why Use MVC?
 The MVC has a clear separation of concerns and simultaneously being easier on maintainance and debugging. It can also support multiple Views for the same Model and has a well-established architecture with extensive framework support.
+
+## Model View ViewModel (MVVM)
+MVVM is evolved from MVC to better support the modern user interface, particularly reactive and declarative UI frameworks. The only difference between this and MVC is that it has a ViewModel rather than a controller. ViewModel in MVVP acts as an abstraction of the View and prepares Model data for presentation.
+
+### MVVM How it Works
+- The View binds directly to the ViewModel.
+- User interactions update the ViewModel.
+- The ViewModel updates the Model.
+- Changes in the Model are reflected back through the ViewModel.
+- The View automatically updates through data binding.
+
+### Why Use MVVM?
+MVVM has a clear separation between UI and business logic with an improved testability. It has a reduced code in the View and works well with reactive programming techniques, these being a technique focused on creating relationships between pieces of data so that when one value changes, all related values update automatically without requiring extra code. MVVM has become the preferred architecture for modern mobile applications. I kinda found it a little interesting that both Apple and Google have shifted toward MVVM because declarative user interfaces work naturally with data-binding concepts.
 
 # Assess External Community Contribution Guidelines
 ## Community Information

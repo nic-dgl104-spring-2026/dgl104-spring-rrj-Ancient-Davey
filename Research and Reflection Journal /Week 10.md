@@ -1,3 +1,41 @@
+# MV* Patterns (MVC, MVVM, MVP)
+
+## Lecture Summary
+This Week I learned about the MV* architectural patterns, which are widely used in web and mobile app development. Unlike traditional design patterns such as Singleton, Observer, or Adapter, MV* patterns focus on the overall structure and organization of an application rather than solving a specific object-oriented programming problem. These patterns, very much like blueprints, help developers separate responsibilities within an application, making projects easier to maintain, test, and scale as they grow in complexity.
+
+The MV* family consists primarily of three common architectures:
+- Model View Controller (MVC)
+- Model View ViewModel (MVVM)
+- Model View Presenter (MVP)
+
+Now the these three patterns aim to separate date, user interfaces, and application logic into their own separate components. This separation reduces code coupling and improves its maintainability.
+
+## Understanding the Model
+The Model is responsible for managing application data and business logic. This allows for the application to see if the source is true. The Model typically interacts with databases, APIs, or local storage. It is also responsible for storing application data, validating data, communicating with databases and external services, performing business calculations.
+
+The Model should remain independent of the user interface. This allows developers to modify UI components without affecting how data is stored or managed.
+
+For example, in a student management application, the Model would contain information such as student names, IDs, grades, and attendance records.
+
+## Model View Controller (MVC)
+MVC is one of the oldest and most popularly used software architecture out of the three. It divides an application into three core components:
+#### Model
+Contains data and business logic
+#### View 
+Displays the users information
+#### Controller
+Handles user input and acts as a mediator between the Model and View
+
+### MVC How it Works
+- The user interacts with the View.
+- The Controller receives the user action.
+- The Controller updates the Model.
+- The Model changes its state.
+- The View refreshes and displays updated data.
+
+### Why Use MVC
+The MVC has a clear separation of concerns and simultaneously being easier on maintainance and debugging. It can also support multiple Views for the same Model and has a well-established architecture with extensive framework support.
+
 # Assess External Community Contribution Guidelines
 ## Community Information
 ### Project: CircuitVerse

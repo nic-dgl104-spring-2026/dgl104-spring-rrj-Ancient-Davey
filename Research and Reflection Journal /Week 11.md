@@ -37,3 +37,13 @@ I also found the comparison between procedural programming and object-oriented p
 I know these readings are supposed to give me an understanding on these subjects so I can build a proper foundation, but I just don't see myself using any of this knowledge later on. Maybe it will click with me later and I will be like, "OH! Thats why I learned it!" but until that happens I will not see the use of it.
 ## References
 - Week 11 reading material from DGL-104 App Development Foundations course.
+
+# Activities
+## Applying OOP in My Programming Assignment
+I plan to use OOP in my programming assignment by creating classes and objects to organize my code. For example, in a student management program, I could create a Student class with attributes such as name and grades, along with methods to calculate averages and display information. Using OOP will make my code more organized, reusable, and easier to maintain.
+## Follow-Up Questions and Reflection
+### Is Kotlin OOP capable?
+ Yes. Kotlin fully supports Object-Oriented Programming, including classes, objects, inheritance, encapsulation, abstraction, and polymorphism.
+
+### Does it support other paradigms?
+ Yes. Kotlin is a multi-paradigm language. In addition to OOP, it supports procedural, functional, and concurrent programming styles.

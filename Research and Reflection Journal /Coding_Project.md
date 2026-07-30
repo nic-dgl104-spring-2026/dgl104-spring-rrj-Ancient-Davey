@@ -44,15 +44,14 @@ This week involved a lot of debugging. I found several issues where tasks were n
 ## Week 12 - Final Documentation and App Testing
 
 ### Activities
-- Added GitHub Actions for CI/CD.
+- Failed to add GitHub Actions for CI/CD.
 - Improved the README documentation.
 - Created the CONTRIBUTING.md file.
 - Tested the application.
 - Fixed remaining bugs.
 
 ### Reflection
-By the end of this week the application included all of the required features. Most of my time was spent testing, improving the user experience, and making sure everything worked together properly.
-
+By the end of this week the application included most of the required features. Most of my time was spent testing, improving the user experience, and making sure everything worked together properly. Even though I tried I could not seem to get the GitHub Actions working properly as even though I followed the steps it seems it did not want to link up with my repository and was only trying to send files from ".idea", even though ".github"  was not located in that file. So, please be lenient as I had no idea why it was acting weird.
 
 ## Final Reflection
 

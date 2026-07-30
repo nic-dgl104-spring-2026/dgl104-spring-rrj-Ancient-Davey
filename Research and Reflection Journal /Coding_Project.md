@@ -10,7 +10,7 @@ At this point, I knew I wanted to use Kotlin because I had more experience build
 
 This week I did not do anything for the project as I planned to do it in the following week.
 
-## Week 10
+## Week 10 - Starting to build the Task Manager
 
 ### Activities
 - Created the Android project in Android Studio.
@@ -24,7 +24,7 @@ This week I did not do anything for the project as I planned to do it in the fol
  I learned how design patterns can make code easier to organize. Using the Singleton for the database and the Factory pattern for creating users made the project much cleaner, but I guess that is a given when you start organizing parts into their separate folders.
 
 
-## Week 11
+## Week 11 - Problems with Firebase
 
 ### Activities
 - Added logging using Android Logcat.
@@ -41,7 +41,7 @@ This week I did not do anything for the project as I planned to do it in the fol
 This week involved a lot of debugging. I found several issues where tasks were not updating or deleting immediately because the RecyclerView was not refreshing correctly. Turns out it was that the problem was that I did not set up my Firebase correctly by not adding the settings after I added my app. Fixing these problems helped me better understand how Firestore updates data.
 
 
-## Week 12
+## Week 12 - Final Documentation and App Testing
 
 ### Activities
 - Added GitHub Actions for CI/CD.
